@@ -73,6 +73,10 @@ $('input').on('change', function() {
   $('.d').text(Math.sqrt(Math.pow(A, 2) + Math.pow(B, 2)).toFixed(2));
   $('.phi').text(Math.atan(B/A).toFixed(2));
   $('.omega-num').text($('.omega').val())
+  $('.a-num').text($('.A').val())
+  $('.b-num').text($('.B').val())
 
   console.log( $(this).attr('class'), $(this).val() );
 });
+
+$('input').trigger('change');
