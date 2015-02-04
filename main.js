@@ -1,8 +1,8 @@
 var CIRCLE = 2 * Math.PI;
 var i = 0;
 
-var delt = 0.05;
-var omega = 1;
+var delt = 0.01;
+var omega = 10;
 var A = 2;
 var B = 1;
 
