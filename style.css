@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+  text-align: center;
+}
+
+input {
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  padding: .25em;
+  border: thin solid #ddd;
+  border-radius: 2px;
+  line-height: 1;
+  width: 5em;
+  text-align: center;
+}
+
+p {
+  margin-bottom: .5em
+}
+
+h1 {
+  font-family: Segoe UI Light, Open Sans;
+  font-size: 1.25em;
+  font-weight: 300;
+  margin: 0 0 .25em;
+}
+
+.desc {
+  font-family: Segoe UI;
+  font-size: .75em;
+  font-style: italic;
+  color: #999;
+  margin: 0 0 1em;
+}
