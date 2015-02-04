@@ -59,9 +59,6 @@ canvasInit();
 
 $('input').on('change', function() {
   switch ( $(this).attr('class') ) {
-    case 'delt': 
-      delt = parseFloat( $(this).val() );
-    break;
     case 'omega':
       omega = parseFloat( $(this).val() );
     break;
